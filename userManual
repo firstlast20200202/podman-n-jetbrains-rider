@@ -18,3 +18,8 @@ add 'V2' in field 'module' in web.config file to be like:
 </handlers>
 
 dockerfile for running angular components:
+
+
+25th Feb 2026:
+if it shows 'No Container Engine' when open podman, and 'the user has not been granted the requested logon type at this computer' when input 'podman machine init' in cmd, that's probably 
+because the virtual machine that images have been built is dead, it needs to be 'podman machine init' and 'podman machine start' before building the images again.
