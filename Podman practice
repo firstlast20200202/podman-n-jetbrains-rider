@@ -36,3 +36,13 @@ troubleshoot:
    without -v it outputs response body only 'Hello, World!'
    with -v it outputs connection details, request, response headers, response body and connection status
    
+3. if it shows 
+   'wsl: Nested virtualisation is not supported on this machine.
+   Logon failure: the user has not been granted the requested logon type at this computer'
+   just run & wsl --shutdown 
+   then try $ podman machine init and $ podman machine start etc. that should work
+
+
+
+
+
